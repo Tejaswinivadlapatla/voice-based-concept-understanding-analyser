@@ -5,14 +5,13 @@
 
 # Developed by:-
 
-# 1. Sai Chaturya Amjuri
-# 2. Yukta Sri Jami
-# 3. Mahesh Patnana
-# 4. Maneesha Vayalapalli
+# 1. Vadlpatla Tejaswini
+# 2. Jaya Mounika
+# 3. Shanthi 
+# 4. Nandhitha
 
 
-#This project is developed as a part of Apsche Google Cloud Generative AI Internship 2026
-
+#This project is developed as a part of SkillDizire Internship 2026  Generative Ai 
 #--------------------------------------------------------------------------
 
 
