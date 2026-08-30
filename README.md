@@ -298,8 +298,8 @@ This project is developed for educational and academic purposes.
 
 We sincerely thank the following organizations and technologies for supporting this project:
 
-- SmartBridge
-- Anil Neerukonda Institute of Technology and Sciences (ANITS)
+- SkillDzire
+- Aditya University Surrempallem
 - Streamlit
 - Google Gemini AI
 - OpenAI Whisper
