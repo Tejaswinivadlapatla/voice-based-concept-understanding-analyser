@@ -1,0 +1,18 @@
+Voice-Based Concept Understanding Analyser – Demo Report
+
+The project demonstration successfully showcased the working of the Voice-Based Concept Understanding Analyser, an AI-powered system designed to evaluate a user's conceptual understanding through speech input.
+
+During the demonstration, users provided voice responses on a given topic. The system converted the speech into text using Speech-to-Text technology and analyzed the response using Natural Language Processing and semantic similarity techniques. The application then evaluated the accuracy, relevance, and completeness of the concepts explained by the user.
+
+The system generated performance scores along with feedback regarding conceptual understanding, fluency, and clarity of explanation. The demonstration proved the effectiveness of integrating Artificial Intelligence, Speech Processing, and Machine Learning techniques to create an intelligent concept assessment platform.
+
+Outcome of Demo
+Successfully accepted voice input from users.
+Converted speech into textual data.
+Performed semantic analysis of concepts.
+Generated understanding scores and feedback reports.
+Displayed results through an interactive dashboard.
+Demonstrated real-time AI-based evaluation capabilities
+
+
+**Link:- https://drive.google.com/file/d/1DCIdETj1sX00ZlMGAvT8CP9lrUmOQAtg/view?usp=sharing**
