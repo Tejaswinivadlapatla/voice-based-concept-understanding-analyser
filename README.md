@@ -85,16 +85,7 @@ PDF Report Generation
 
 ---
 
-## 👨‍💻 Team
 
-| Name | Role |
-|------|------|
-| Amjuri Sai Chaturya | Team Leader |
-| Jami Yuktasri | Member |
-| Patnana Mahesh | Member |
-| Vayalapalli Maneesha | Member |
-
----
 
 ## 📌 Current Status
 
