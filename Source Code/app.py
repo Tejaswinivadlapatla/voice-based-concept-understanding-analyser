@@ -413,17 +413,35 @@ Student Answer:
             # -------------------------------
             # Gemini AI
             # -------------------------------
-            with st.spinner("🤖 Evaluating using Gemini..."):
+            
+# Gemini AI with retry handling
+with st.spinner("🤖 Evaluating using Gemini..."):
+    response = None
 
-                response = client.models.generate_content(
-                    model="gemini-3.6-flash",
-                    contents=prompt
-                )
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model="gemini-3.6-flash",
+                contents=prompt
+            )
+            break
 
-            ai_text = response.text
+        except Exception as e:
+            error_text = str(e)
 
-            st.subheader("🤖 AI Feedback")
-            st.write(ai_text)
+            if (
+                ("503" in error_text or "UNAVAILABLE" in error_text)
+                and attempt < 2
+            ):
+                time.sleep(2 ** (attempt + 1))
+            else:
+                raise
+
+    if response is None or not response.text:
+        st.error("AI analysis returned no response. Please try again.")
+        st.stop()
+
+    ai_text = response.text
 
             # -------------------------------
             # Extract Results
