@@ -415,6 +415,7 @@ Student Answer:
             # -------------------------------
             
 # Gemini AI with retry handling
+
 with st.spinner("🤖 Evaluating using Gemini..."):
     response = None
 
@@ -437,9 +438,9 @@ with st.spinner("🤖 Evaluating using Gemini..."):
             else:
                 raise
 
-    if response is None or not response.text:
-        st.error("AI analysis returned no response. Please try again.")
-        st.stop()
+        if response is None or not response.text:
+            st.error("AI analysis returned no response. Please try again.")
+            st.stop()
 
     ai_text = response.text
 
