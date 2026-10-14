@@ -20,6 +20,7 @@ import sqlite3
 import tempfile
 import os
 import re
+import time
 import io
 import html
 import whisper
