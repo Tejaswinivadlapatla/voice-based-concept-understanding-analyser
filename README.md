@@ -6,7 +6,7 @@ https://voice-based-concept-understanding-analyser-f5okuxbuqhca5q4zgnp.streamlit
 
 ---
 
-## 📌 About the Project
+## 📌 About the Project :
 
 The **Voice-Based Concept Understanding Analyser (VBCUA)** is an AI-powered web application developed to assess a user's understanding of concepts through voice input. The application converts speech into text, analyzes semantic similarity between the spoken response and the expected answer, evaluates speech characteristics, and generates an overall performance score along with personalized feedback.
 
